@@ -1,27 +1,28 @@
+
 # Recipe Card
 
-Bu projede bir yemek tarifi web sitesindeki her bir yemek için görüntülenecek kartı oluşturuyoruz. Projedeki Card Componenti bir yemek tarifinin detaylarını, yazarını, beğeni sayısını ve kullanıcın tarifi beğenip beğenmediğine dair birtakım bilgileri gösteriyor.
+In this project we are creating the card that will be displayed for each dish on a recipe website. The Card Component in the project shows the details of a recipe, the author, the number of likes and some information about whether the user likes the recipe.
 
-<p align="center">
-  <img src="recipe-card.png" alt="Recipe Card"/>
+<p align = "center">
+  <img src = "recipe-card.png" alt = "Recipe Card" />
 </p>
 
-### Proje Nasıl Çalıştırılır
+### How to Run a Project
 
-- Projeyi fork'ladıktan ya da indirdikten sonra projenin bulunduğu klasörde "npm install" komutu ile gerekli paketlerin yüklenmesi gerekiyor.
-- Daha sonra "npm run start" komutu ile uygulama başlatılabilir.
+- After forking or downloading the project, the necessary packages must be installed with the "npm install" command in the folder where the project is located.
+- Then the application can be started with the command "npm run start".
 
-### Proje Hakkında
+### About the project
 
-Card Componenti yemek hakkında bilgileri listelemek için belli başlı "prop"lar almakta.
-Bu "prop"lar sırasıyla, author, recipe, count, liked olarak adlandırılmış durumda.
+The Card Component receives certain "props" to list information about the meal.
+These "props" are named author, recipe, count, liked, respectively.
 
-### Yapılacaklar
+### To-do
 
-Card component'i içerisindeki placeholder text olarak verilen yerlerin props olarak alacak şekilde dinamik hale getiriniz. Sonrasında gerekli yerleri App.js içerisinden prop olarak geçerek render edilmesini sağlayınız.
+Make the places in the Card component dynamic so that the places given as placeholder text will be taken as props. Then, make sure that the necessary places are rendered by passing through App.js as a prop.
 
-### Not
+### Note
 
-1. Şu anda food image Card component'i içerisinde import edilerek görüntülenmektedir. Food adlı image'ın da prop olarak geleceği şekilde düzenleyiniz.
+1. Currently imported and displayed in the food image Card component. Edit it so that the image named Food will also come as a prop.
 
-2. Örnek olması açısından author prop olarak geçilmiştir. Card component'inde profile adlı `<div>` içerisindeki `<span>` author prop'unun ilk harfini alacak şekilde render edilmiştir.
+2. It has been passed as an author prop for an example. It is rendered to take the first letter of the <span> 'author prop in the' <div> 'named profile in the Card component.
